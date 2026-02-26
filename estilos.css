@@ -52,3 +52,19 @@ nav a {
 nav a:hover {
     color: black;
 }
+
+/* layout principal  */
+.layout {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+/* MAIN SECTION */
+
+main {
+    background: rgba(115,218,122,0.299);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
