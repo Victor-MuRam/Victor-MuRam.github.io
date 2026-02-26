@@ -1,0 +1,54 @@
+/* Configuracion general */
+body {
+    margin: 0px;
+    padding: 20px;
+    /* Espacios respecto a nuestro navegador */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    /* Ajustando el alto del navegador */
+    min-height: 100vh;
+
+}
+
+/* contenedor principal que ocupara todo el ancho de la página web */
+/* Esto es una clase CSS */
+.container {
+    width: 100%;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* navegacion  */
+nav {
+    background-color: rgba(255, 204, 0, 0.751);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    gap:15px;
+    /* La propiedad CSS gap define el espacio (canalón o ) entre filas y columnas en diseños de cuadrícula (Grid), Flexbox y de múltiples columnas. Sustituye a los márgenes entre elementos, permitiendo crear espacios consistentes solo entre los elementos internos sin afectar los bordes del contenedor. */
+}
+
+/* Modifica las anclas (hipervinculos del nav) */
+nav a {
+    text-decoration: none;
+    color: rgba(82, 79, 79, 0.648);
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black1;
+}
