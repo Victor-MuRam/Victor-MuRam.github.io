@@ -68,3 +68,25 @@ main {
     border-radius: 15px;
     margin-bottom: 25px;
 }
+
+article {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section {
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.main-footer {
+    background-color: violet;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
