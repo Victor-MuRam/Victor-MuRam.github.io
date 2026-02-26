@@ -90,3 +90,26 @@ section {
     justify-content: space-between;
     margin-top: 18px;
 }
+
+/* ASIDE */
+aside {
+    background-color: rgba(44,230,230);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ASIDE SECTION */
+aside section {
+    background: rgba(136, 213,20,0.771);
+    margin: 20px;
+}
+
+
+.page-footer {
+    margin-top: 20px;
+    background: pink;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
